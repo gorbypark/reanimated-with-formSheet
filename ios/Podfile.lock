@@ -419,6 +419,8 @@ PODS:
     - React-jsi (= 0.71.3)
     - React-logger (= 0.71.3)
     - React-perflogger (= 0.71.3)
+  - RNFlashList (1.4.1):
+    - React-Core
   - RNReanimated (3.0.0):
     - DoubleConversion
     - FBLazyVector
@@ -514,6 +516,7 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - "RNFlashList (from `../node_modules/@shopify/flash-list`)"
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
@@ -605,6 +608,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/runtimeexecutor"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RNFlashList:
+    :path: "../node_modules/@shopify/flash-list"
   RNReanimated:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
@@ -660,6 +665,7 @@ SPEC CHECKSUMS:
   React-RCTVibration: 5199a180d04873366a83855de55ac33ce60fe4d5
   React-runtimeexecutor: 7bf0dafc7b727d93c8cb94eb00a9d3753c446c3e
   ReactCommon: 6f65ea5b7d84deb9e386f670dd11ce499ded7b40
+  RNFlashList: 8ec7f7454721145fe84566bb9e88bcf58981c9fe
   RNReanimated: a71e12c5fcf4f01bd7cfc286cb83467cab89e5c2
   RNScreens: 218801c16a2782546d30bd2026bb625c0302d70f
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
@@ -668,4 +674,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 6e8c7a1db50568bb66be42eb5c3d14cada9120ca
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.0
